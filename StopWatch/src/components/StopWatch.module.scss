@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .stopwatch {
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .time {
+    margin: 0 5px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    color: #282c34;
+  }
+  
